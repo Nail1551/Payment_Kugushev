@@ -248,7 +248,7 @@ namespace Payment_Kugushev
 
                 application.Visible = true;
                 document.SaveAs2(@"C:\Users\nailk\Desktop\Учеба\УП\Payments.docx");
-
+                document.SaveAs2(@"C:\Users\nailk\Desktop\Учеба\УП\Payments.PDF", Word.WdExportFormat.wdExportFormatPDF);
             }
         }
 
